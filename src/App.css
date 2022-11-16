@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.calcButton {
+  padding: 10px;
+  width: 10vw;
+  height: 7vh;
+  background-color: rgb(70, 70, 70);
+  outline: 1px solid black;
+  border: none;
+  color: white;
+}
+
+#clear {
+  width: 20vw;
+}
+
+#zero {
+  width: 20vw;
+  margin-left: -10vw;
+}
+
+#one {
+  margin-left: -10vw;
+}
+
+#equals {
+  height: 14vh;
+  position: absolute;
+  background-color: rgb(7, 130, 187);
+}
+
+#calculator {
+  background-color: black;
+  width: 42vw;
+  margin: auto;
+  margin-top: 20%;
+  padding-bottom: 1vh;
+  padding-top: 2vh;
+  color: white;
+}
+
+#clear {
+  background-color: rgb(237, 103, 103);
+}
+
+#add,
+#divide,
+#subtract,
+#multiply {
+  background-color: rgb(100, 98, 98);
+}
+
+#formula {
+  text-align: left;
+  padding-left: 10px;
+  color: orange;
+  word-wrap: break-word;
+}
+
+#display {
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  word-wrap: break-word;
+}
+
+button:hover {
+  color: black;
+  outline: 0.05em solid grey;
+}
